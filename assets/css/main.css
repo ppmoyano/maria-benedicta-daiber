@@ -2406,7 +2406,7 @@ body>article {
 	/* Basic */
 
 	body {
-		padding-top: 44px;
+		padding-top: 90px;
 	}
 
 	body,
@@ -2560,15 +2560,24 @@ body>article {
 	/* Nav */
 
 	#nav {
-		height: 44px;
-		line-height: 44px;
+		height: auto;
+		min-height: 44px;
+		line-height: normal;
+		padding: 5px 0;
+	}
+
+	#nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	#nav a {
-		padding: 0 0.75em;
-		height: inherit;
-		line-height: inherit;
+		padding: 8px 10px;
+		height: auto;
+		line-height: normal;
 		border-radius: 0;
+		font-size: 0.95em;
 	}
 
 	#nav a:hover {
