@@ -740,6 +740,29 @@
 
 /* Wrappers */
 
+	.news-update {
+		max-width: 36em;
+		margin: 1.5em auto 0;
+		padding-top: 1.25em;
+		border-top: 1px solid rgba(67, 179, 224, 0.25);
+
+		h2 {
+			color: #43B3E0;
+			font-size: 0.9em;
+			font-weight: 600;
+			letter-spacing: 0.04em;
+			margin-bottom: 0.35em;
+		}
+
+		p {
+			margin: 0 0 0.45em;
+		}
+
+		a {
+			font-weight: 600;
+		}
+	}
+
 	.wrapper {
 		background-image: url('images/bg.png');
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1037,6 +1060,11 @@
 
 			section, article {
 				clear: both;
+			}
+
+			.news-update {
+				margin-top: 1.25em;
+				padding-top: 1em;
 			}
 
 		/* Button */
