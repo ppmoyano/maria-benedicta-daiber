@@ -2137,6 +2137,29 @@ i {
 
 /* Wrappers */
 
+.news-update {
+	max-width: 36em;
+	margin: 1.5em auto 0;
+	padding-top: 1.25em;
+	border-top: 1px solid rgba(67, 179, 224, 0.25);
+}
+
+.news-update h2 {
+	color: #43B3E0;
+	font-size: 0.9em;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	margin-bottom: 0.35em;
+}
+
+.news-update p {
+	margin: 0 0 0.45em;
+}
+
+.news-update a {
+	font-weight: 600;
+}
+
 .wrapper {
 	background-color: #fff;
 	/* Removed bg.png */
@@ -2458,6 +2481,11 @@ body>article {
 	section,
 	article {
 		clear: both;
+	}
+
+	.news-update {
+		margin-top: 1.25em;
+		padding-top: 1em;
 	}
 
 	/* Button */
